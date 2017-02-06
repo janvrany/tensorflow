@@ -17,3 +17,5 @@ target_link_libraries(tf_sharedlib
     ${tensorflow_EXTERNAL_LIBRARIES}
     tf_protos_cc
 )
+
+set_target_properties(tf_sharedlib PROPERTIES OUTPUT_NAME "tensorflow")
